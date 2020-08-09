@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+
+<launch>
+    <rosparam command="load" file="$(find rrm_cv5_8_motor)/config/config.yaml" />
+
+    <!--<node pkg="rrm_cv5_8_motor" name="communication" type="communication" output="screen"/>-->
+    <node pkg="rrm_cv5_8_motor" name="motor_driver_node" type="motor_driver_node" output="screen"/>
+
+
+</launch>

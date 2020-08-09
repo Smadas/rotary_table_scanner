@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+
+<launch>
+    <rosparam command="load" file="$(find rrm_cv5_8_scanner)/config/config.yaml" />
+    <include file="$(find rrm_cv5_8_lidar)/launch/lidar.launch"/>
+    <include file="$(find rrm_cv5_8_motor)/launch/driver.launch"/>
+    <include file="$(find rrm_cv5_8_scanner)/launch/scanner_rviz.launch"/>
+    <node pkg="rrm_cv5_8_scanner" name="scanner" type="scanner" output="screen" />
+</launch>

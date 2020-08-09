@@ -1,0 +1,5 @@
+stationary_object_tolerance: 0.001
+top_range: 2.6
+bottom_range: -0.5
+max_range: 0.4
+motor_period: 200

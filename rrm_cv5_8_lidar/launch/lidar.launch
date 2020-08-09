@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+
+<launch>
+    <rosparam command="load" file="$(find rrm_cv5_8_lidar)/config/config.yaml" />
+    <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+    <node pkg="rrm_cv5_8_lidar" name="lidar" type="lidar" output="screen" />
+</launch>

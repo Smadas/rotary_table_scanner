@@ -1,0 +1,6 @@
+baud: 9600
+port: /dev/ttyACM0
+serial_timeout: 20
+motor_state_rate: 300
+motor_velocity_topic: "rrm_cv5_8_motor/cmd_vel"
+motor_state_topic: "rrm_cv5_8_motor/motor_state"

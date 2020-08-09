@@ -1,0 +1,3 @@
+float64 scan_angle_range
+---
+bool started_scan
